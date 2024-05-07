@@ -2,7 +2,7 @@
 
 sed -i 's/\[]/\["35-165-138-89"]/' /home/ubuntu/blogprojectdrf/blog/settings.py
 cd /home/ubuntu/blogprojectdrf
-source /venv/bin/activate
+source venv/bin/activate
 python3 manage.py migrate 
 # python manage.py makemigrations     
 python3 manage.py collectstatic
