@@ -1,7 +1,7 @@
 #!/usr/bin/bash 
 
 sed -i 's/\[]/\["35-165-138-89"]/' /home/ubuntu/blogprojectdrf/blog/settings.py
-pwd
+cd /home/ubuntu/blogprojectdrf
 python3 manage.py migrate 
 # python manage.py makemigrations     
 python3 manage.py collectstatic
