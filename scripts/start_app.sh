@@ -1,6 +1,6 @@
 #!/usr/bin/bash 
 
-sed -i 's/\[]/\["Your_Instance_Public_IP"]/' /home/ubuntu/blogprojectdrf/blog/settings.py
+sed -i 's/\[]/\["35-165-138-89"]/' /home/ubuntu/blogprojectdrf/blog/settings.py
 
 python3 manage.py migrate 
 # python manage.py makemigrations     
